@@ -245,7 +245,6 @@
 			<target name="CMake (Host-Debug With Coverage)" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
 				<buildCommand>bash</buildCommand>
 				<buildArguments>-c "cmake -E make_directory build/i686/DebugWithCoverage ; cmake -E chdir build/i686/DebugWithCoverage cmake -G \"Unix Makefiles\" -DCMAKE_BUILD_TYPE=DebugWithCoverage -DCMAKE_TOOLCHAIN_FILE=SBE/toolchains/i686-Linux ../../.."</buildArguments>
-				<buildTarget/>
 				<stopOnError>true</stopOnError>
 				<useDefaultCommand>false</useDefaultCommand>
 				<runAllBuilders>false</runAllBuilders>
@@ -253,7 +252,6 @@
 			<target name="CMake (PowerPC-Release)" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
 				<buildCommand>bash</buildCommand>
 				<buildArguments>-c "cmake -E make_directory build/ppc/Release ; cmake -E chdir build/ppc/Release cmake -G \"Unix Makefiles\"  -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=SBE/toolchains/ppc-Linux-gnu_4_1_1 ../../.."</buildArguments>
-				<buildTarget/>
 				<stopOnError>true</stopOnError>
 				<useDefaultCommand>false</useDefaultCommand>
 				<runAllBuilders>false</runAllBuilders>
@@ -261,6 +259,13 @@
 			<target name="CMake (PowerPC-Debug)" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
 				<buildCommand>bash</buildCommand>
 				<buildArguments>-c "cmake -E make_directory build/ppc/Debug ; cmake -E chdir build/ppc/Debug cmake -G \"Unix Makefiles\"  -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=SBE/toolchains/ppc-Linux-gnu_4_1_1 ../../.."</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="CMake (PowerPC-DebugWithCoverage)" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>bash</buildCommand>
+				<buildArguments>-c "cmake -E make_directory build/ppc/DebugWithCoverage ; cmake -E chdir build/ppc/DebugWithCoverage cmake -G \"Unix Makefiles\"  -DCMAKE_BUILD_TYPE=DebugWithCoverage -DCMAKE_TOOLCHAIN_FILE=SBE/toolchains/ppc-Linux-gnu_4_1_1 ../../.."</buildArguments>
 				<buildTarget/>
 				<stopOnError>true</stopOnError>
 				<useDefaultCommand>false</useDefaultCommand>
