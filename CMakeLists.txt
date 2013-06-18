@@ -19,6 +19,7 @@ set(TEST_FILES
 test/PrintHelloWorldTest.cpp 
 )
 
+include(SBE/AddCoverityTargets)
 include(SBE/DeployDependencies)
 include(SBE/AddBinaryTargets)
 include(SBE/AddTestTargets)
