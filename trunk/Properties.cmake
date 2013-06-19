@@ -9,7 +9,7 @@ set(MAINTAINER       "stevo.bellus@gmail.com")
 
 # project dependecies
 set(DEPENDENCIES
-DEPENDENCY URL http://sbe-documentationsystem.googlecode.com/svn/tags/rel_2_0_2
+DEPENDENCY URL http://sbe-documentationsystem.googlecode.com/svn/tags/rel_2_0_1
 DEPENDENCY URL http://sbe-cpputestlibrary.googlecode.com/svn/tags/rel_1_0_0
 )
 
