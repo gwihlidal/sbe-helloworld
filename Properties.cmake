@@ -1,4 +1,4 @@
-# # project info
+# project info
 set(NAME             "HelloWorld")
 set(TYPE             "Executable")
 set(VERSION_MAJOR    "2")
