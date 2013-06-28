@@ -36,6 +36,10 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/build/ppc/Release/dependencies/installation/include/&quot;"/>
 								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.392479836" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__EXPORT"/>
+									<listOptionValue builtIn="false" value="__IMPORT"/>
+								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.694126679" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.540422854" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
@@ -43,12 +47,20 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/build/ppc/Release/dependencies/installation/include/&quot;"/>
 								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1866625819" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__EXPORT"/>
+									<listOptionValue builtIn="false" value="__IMPORT"/>
+								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1760179474" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.43272416" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1706983308" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/build/ppc/Release/dependencies/installation/include/&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1805521722" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__EXPORT"/>
+									<listOptionValue builtIn="false" value="__IMPORT"/>
 								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.350590119" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
@@ -96,6 +108,10 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/build/dependencies/installation/i686/DebugWithCoverage/include/&quot;"/>
 								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.585235615" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__EXPORT"/>
+									<listOptionValue builtIn="false" value="__IMPORT"/>
+								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.749371947" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.4224688" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
@@ -103,12 +119,20 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/build/dependencies/installation/i686/DebugWithCoverage/include/&quot;"/>
 								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.715408210" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__EXPORT"/>
+									<listOptionValue builtIn="false" value="__IMPORT"/>
+								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.2137668351" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.1914713456" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1106500510" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/build/dependencies/installation/i686/DebugWithCoverage/include/&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.597147299" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__EXPORT"/>
+									<listOptionValue builtIn="false" value="__IMPORT"/>
 								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.84395836" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
@@ -156,6 +180,10 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/build/dependencies/installation/ppc/Debug/include/&quot;"/>
 								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1843628542" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__EXPORT"/>
+									<listOptionValue builtIn="false" value="__IMPORT"/>
+								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.92049490" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.1991347018" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
@@ -163,12 +191,20 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/build/dependencies/installation/ppc/Debug/include/&quot;"/>
 								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1299975628" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__EXPORT"/>
+									<listOptionValue builtIn="false" value="__IMPORT"/>
+								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1912506576" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.915898781" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1598795356" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/build/dependencies/installation/ppc/Debug/include/&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1501974810" name="Symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__EXPORT"/>
+									<listOptionValue builtIn="false" value="__IMPORT"/>
 								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.497832140" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
@@ -266,6 +302,13 @@
 			<target name="CMake (PowerPC-DebugWithCoverage)" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
 				<buildCommand>bash</buildCommand>
 				<buildArguments>-c "cmake -E make_directory build/ppc/DebugWithCoverage ; cmake -E chdir build/ppc/DebugWithCoverage cmake -G \"Unix Makefiles\"  -DCMAKE_BUILD_TYPE=DebugWithCoverage -DCMAKE_TOOLCHAIN_FILE=SBE/toolchains/ppc-Linux-gnu_4_1_1 ../../.."</buildArguments>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="CMake (TiDsp-Release)" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>bash</buildCommand>
+				<buildArguments>-c "cmake -E make_directory build/tidsp_mv64/Release ; cmake -E chdir build/tidsp_mv64/Release cmake -G \"Unix Makefiles\" -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=SBE/toolchains/tidsp_mv64-6_1_13 ../../.."</buildArguments>
 				<buildTarget/>
 				<stopOnError>true</stopOnError>
 				<useDefaultCommand>false</useDefaultCommand>

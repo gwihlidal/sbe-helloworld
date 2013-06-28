@@ -7,14 +7,6 @@ include(Properties.cmake)
  
 project(${NAME} CXX)
 
-set(SOURCE_FILES_OUTOF_TEST
-src/Main.cpp
-)
-
-set(SOURCE_FILES
-src/Application.cpp
-)
-
 set(TEST_FILES
 test/PrintHelloWorldTest.cpp 
 )
@@ -27,4 +19,36 @@ include(SBE/AddInstallTarget)
 include(SBE/AddUninstallTarget)
 include(SBE/AddPackageTarget)
 include(SBE/AddTagTarget)
+
+addBinaryTarget(
+    TARGET_NAME CommonProductionAndTestObjects
+    TARGET_TYPE "Object Library"
+    SOURCES
+        src/Application.cpp
+)
+
+addBinaryTarget(
+    TARGET_NAME ${NAME}
+    TARGET_TYPE ${TYPE}
+    OBJECT_LIBRARY CommonProductionAndTestObjects
+    SOURCES
+        src/Main.cpp
+)
+
+addBinaryTarget(
+    TARGET_NAME ${NAME}Test
+    TARGET_TYPE "Test Executable"
+    OBJECT_LIBRARY CommonProductionAndTestObjects
+    SOURCES
+        test/PrintHelloWorldTest.cpp
+)
+
+addTestTarget(
+    EXECUTABLE_NAME ${NAME}Test
+)
+
+addInstallTarget(
+    PACKAGE_NAME ${NAME}
+    TARGETS_NAMES ${NAME} ${NAME}Test
+)
 
