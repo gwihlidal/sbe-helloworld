@@ -20,35 +20,32 @@ include(SBE/AddUninstallTarget)
 include(SBE/AddPackageTarget)
 include(SBE/AddTagTarget)
 
-addBinaryTarget(
-    TARGET_NAME CommonProductionAndTestObjects
-    TARGET_TYPE "Object Library"
-    SOURCES
+sbeAddObjects(
+    Name CommonProductionAndTestObjects
+    Sources
         src/Application.cpp
 )
 
-addBinaryTarget(
-    TARGET_NAME ${NAME}
-    TARGET_TYPE ${TYPE}
-    OBJECT_LIBRARY CommonProductionAndTestObjects
-    SOURCES
+sbeAddExecutable(
+    Name ${NAME}
+    Objects CommonProductionAndTestObjects
+    Sources
         src/Main.cpp
 )
 
-addBinaryTarget(
-    TARGET_NAME ${NAME}Test
-    TARGET_TYPE "Test Executable"
-    OBJECT_LIBRARY CommonProductionAndTestObjects
-    SOURCES
+sbeAddTestExecutable(
+    Name ${NAME}Test
+    Objects CommonProductionAndTestObjects
+    Sources
         test/PrintHelloWorldTest.cpp
 )
 
 addTestTarget(
-    EXECUTABLE_NAME ${NAME}Test
+    Executable ${NAME}Test
 )
 
 addInstallTarget(
-    PACKAGE_NAME ${NAME}
-    TARGETS_NAMES ${NAME} ${NAME}Test
+    Package ${NAME}
+    Targets ${NAME} ${NAME}Test
 )
 
