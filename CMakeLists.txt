@@ -45,3 +45,5 @@ addInstallTarget(
     Targets ${NAME} ${NAME}Test
 )
 
+addPackageTarget()
+
